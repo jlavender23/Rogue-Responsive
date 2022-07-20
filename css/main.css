@@ -185,7 +185,7 @@ footer span {
 /********TABLETS********/
 @media only screen and (min-width: 768px) {
 	.bottom-section {
-		justify-content: space-between;
+		justify-content: space-between; 
 		align-items: flex-start;
 		border-top: 1px solid #eee; 
 	}
