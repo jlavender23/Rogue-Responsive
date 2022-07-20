@@ -134,13 +134,13 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
 }
 
 .section-two h3,
 .section-three h3 {
-	padding: 10px 30px;
+	padding: 10px 0;
 }
 
 .menu {
@@ -180,4 +180,37 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
+}
+
+/********TABLETS********/
+@media all and (min-width: 768px) {
+	bottom-section {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-basis:auto 
+	}
+
+	section-one {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} 
+
+	section-two{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} 
+
+	section-three{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} 	
+}
+
+/********DESKTOP********/
+@media all and (min-width: 1200px) {
+
 }
